@@ -1,0 +1,159 @@
+
+.app-data{
+    padding-top:0;
+    bottom: 20%;
+    position: absolute;
+    left:48%;
+}
+.navbar navbar-expand-lg{
+    position: fixed;
+} 
+
+h1{
+    font-family:Passion One;
+}
+
+#about-what-new{
+    font-family:Passion One;
+    font-size:62px;
+    color:#482121;
+}
+
+#logo{
+    padding-top:0;
+    height: 400px;
+    width: 400px;
+    position:sticky;
+    left:9%;
+    padding-bottom: 4%;
+}
+.p-padding{
+    padding-right: 10%;
+    padding-top: 14%;
+    left: 5%;
+    position:relative;
+    bottom: 10%;
+}
+
+#app{
+    padding-top:0;
+    position:relative;
+    left:0%;
+    padding-bottom: 0;
+    width:50%;
+    height: auto;
+}
+
+#details{
+    padding-right: 6%;
+    padding-top:2%;
+    left: 3%;
+    right: 5%;
+    position:relative;
+    padding-left: 3%;
+    margin-top: 2%;
+    
+}
+
+#img-app{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.responsive-body{
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+div.card.h-60{
+    top: 8%;
+    margin-bottom: 8%;
+    flex: 1;
+    border-radius: 5px;
+    max-width: 280px;
+    height: 495px;
+   
+   
+
+}
+
+.nav-img{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+/* Adjust the height and width */
+.quantity-selector {
+    width: 100px; /* Adjust this value to your desired width */
+    height: 30px; /* Adjust this value to your desired height */
+  }
+  
+  /* Style the input field */
+  .quantity-selector input[type="number"] {
+    text-align: center;
+    border-radius: 0;
+  }
+  
+ 
+  /* Style the step up button */
+  .quantity-selector .btn[data-bs-step="up"] {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+  }
+  
+  /* Style the step down button */
+  .quantity-selector .btn[data-bs-step="down"] {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+  }
+  
+  /* Hover styles for step buttons */
+  .quantity-selector .btn:hover {
+    background-color: #d9d9d9;
+    color: #333;
+  }
+
+img.map{
+    position: relative;
+   margin-bottom: 7%;
+   margin-left: 5%;
+   margin-top: 2%;
+}
+
+#row-2{
+    margin-right: 50px;
+}
+
+
+
+/*This is flex box coding*/
+
+body{
+    margin: 0 0 0 0 ;
+}
+.flex-container{
+    padding-left: 18px;
+    padding-right: 0;
+    column-gap: 8px;
+}
+
+.row{
+    
+    flex: 1;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.btn btn-success{
+    margin-top: auto;
+}
